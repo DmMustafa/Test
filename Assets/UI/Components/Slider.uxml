@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="SliderContainer" style="border-left-color: rgb(47, 47, 47); border-right-color: rgb(47, 47, 47); border-top-color: rgb(47, 47, 47); border-bottom-color: rgb(47, 47, 47); background-color: rgb(56, 56, 56); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" />
+        <ui:Slider picking-mode="Ignore" label="Scale" value="1" high-value="1" />
+        <ui:TextField picking-mode="Ignore" label="Value" value="0" />
+    </ui:VisualElement>
+    <SliderControl />
+</ui:UXML>

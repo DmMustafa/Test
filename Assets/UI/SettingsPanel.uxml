@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Button text="Open&#10;Settings" display-tooltip-when-elided="true" name="SettingsOpenButton" style="font-size: 25%; -unity-font-style: bold; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; position: absolute; top: 0; right: 0; left: 90%;" />
+    <ui:VisualElement name="SettingsPanelContainer" style="transition-property: margin; transition-duration: 0.5s; position: absolute; left: 80%; top: 0; right: 0; bottom: 0; width: 20%; margin-left: 20%; font-size: 25px; background-color: rgb(255, 255, 255);">
+        <ui:VisualElement name="Header" style="flex-direction: row-reverse; height: 10%;">
+            <ui:Button text="X" display-tooltip-when-elided="true" name="SettingsCloseButton" style="width: 25%; font-size: 100%; -unity-font-style: bold; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;" />
+            <ui:Label text="Settings&#10;Panel" display-tooltip-when-elided="true" name="HeaderText" style="width: 75%; -unity-text-align: middle-center; font-size: 25%;" />
+        </ui:VisualElement>
+        <ui:ScrollView touch-scroll-type="Unrestricted" name="SettingsScrollView" elasticity="0" scroll-deceleration-rate="0" style="height: 90%;">
+            <ui:VisualElement name="ToggleContainer" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>
